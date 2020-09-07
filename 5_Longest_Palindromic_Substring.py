@@ -21,6 +21,7 @@ class Solution(object):
                     res = s[left:right + 1]
                 left -= 1
                 right += 1
+				
         return res
                 
                 
