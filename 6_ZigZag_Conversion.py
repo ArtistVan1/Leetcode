@@ -7,7 +7,8 @@ class Solution(object):
         """
         if numRows == 1:
             return s
-        rows = ['']* min(numRows, len(s))
+        rows = ['']* min(numRows, len(s
+		
         godown = False
         currow = 0
         for a in s:
@@ -19,3 +20,6 @@ class Solution(object):
             else:
                 currow = currow-1
         return "".join(rows)
+		
+		
+		
