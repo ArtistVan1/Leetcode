@@ -6,6 +6,8 @@ class Solution(object):
         """
         max_l = 0
         res = ""
+		
+		
         for i in range(0,len(s)):
             left, right = i, i
             while left >= 0 and right < len(s) and s[left] == s[right]:

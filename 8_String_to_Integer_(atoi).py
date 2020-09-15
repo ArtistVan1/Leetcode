@@ -9,6 +9,8 @@ class Solution(object):
             return 0
         if s[0] not in ["+", "-"] and not s[0].isdigit(): #排除第一个非空字符不是数字
             return 0
+			
+			
         op = 1
         res = ""
         for i, char in enumerate(s):
