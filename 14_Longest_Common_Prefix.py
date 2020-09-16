@@ -7,6 +7,7 @@ class Solution(object):
         if len(strs)==0:
             return ""
         min_l=len(strs[0])
+		
         for w in strs:
             min_l=min(min_l,len(w))
         #print(min_l)
