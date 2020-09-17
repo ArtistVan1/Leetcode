@@ -11,6 +11,7 @@ class Solution(object):
             s = str(x)[1:]
             s = s[::-1]
             x = -1*int(s)   
+			
         else:
             s=str(x)[::-1]
             x = int(s)
