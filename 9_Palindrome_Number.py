@@ -10,6 +10,7 @@ class Solution(object):
             return False
         if x==0:
             return True
+			
         if len(s)%2==0:
             for i in range(0,length/2):
                 if s[i]!=s[length-1-i]:
