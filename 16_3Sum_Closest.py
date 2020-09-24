@@ -6,6 +6,7 @@ class Solution(object):
         :rtype: int
         """
         nums.sort()
+		
         res = nums[0] + nums[1] + nums[2]
         for i, num in enumerate(nums):
             left, right = i + 1, len(nums) - 1
