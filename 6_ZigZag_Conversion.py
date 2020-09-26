@@ -11,6 +11,7 @@ class Solution(object):
 		
         godown = False
         currow = 0
+		
         for a in s:
             rows[currow] += a
             if currow ==0 or currow == numRows-1:
